@@ -37,6 +37,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   
   "msg/Pidtuning.msg"
 
+  # --------------------------
+  "msg/VisionDetection.msg"
+  "msg/Vision2LocalObserv.msg"
+
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
 )
