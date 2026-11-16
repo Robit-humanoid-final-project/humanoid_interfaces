@@ -39,6 +39,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 
   # --------------------------
   "msg/VisionDetection.msg"
+  "msg/VisionObstacle.msg"
   "msg/Vision2LocalObserv.msg"
 
   DEPENDENCIES std_msgs
