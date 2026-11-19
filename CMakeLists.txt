@@ -43,6 +43,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Vision2LocalObserv.msg"
   "msg/WorldModel.msg"
   "msg/NavCommand.msg"
+  "msg/NavFeedback.msg"
   "msg/VSCommand.msg"
   "msg/VSFeedback.msg"
 
