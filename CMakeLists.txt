@@ -32,8 +32,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   # "msg/Master2udp.msg"
   # "msg/Udp2master.msg"
 
-
-  # "msg/MotionOperator.msg"
+  "msg/MotionOperator.msg"
   
   "msg/Pidtuning.msg"
 
