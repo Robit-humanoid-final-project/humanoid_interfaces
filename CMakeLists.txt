@@ -45,6 +45,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/NavFeedback.msg"
   "msg/VSCommand.msg"
   "msg/VSFeedback.msg"
+  "msg/TeamData.msg"
 
   DEPENDENCIES std_msgs
   DEPENDENCIES geometry_msgs
