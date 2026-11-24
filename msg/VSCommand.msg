@@ -1,2 +1,1 @@
-bool vs_align  # True일 때만 Walk
-bool vs_find   # True시 카메라 탐색
+uint8 vision_mode # 1: vision search, 2: vision align
