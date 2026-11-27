@@ -12,12 +12,15 @@ uint8 SUB_APPROACH=1
 uint8 SUB_ALIGN=2
 uint8 SUB_PASS_KICK=3
 uint8 SUB_SHOOT_KICK=4
+uint8 SUB_RECEIVE=5
+uint8 SUB_PASS_WAIT=6
+uint8 SUB_SUPPORT=7
 
 # 식별 및 경기 진행 상태
 uint8 robot_id          # 로봇 번호 (1 또는 2)
 uint8 main_state        # 현재 GameController 상태 (0~4)
-uint8 sub_state         # 현재 행동 상태 (0~4)
-uint8 pass_count        # 누적 패스 성공 횟수 (1 이상이면 슛 가능)
+uint8 sub_state         # 현재 행동 상태 (0~7)
+uint8 pass_count        # 패스 단계 (1 이상이면 슛 가능)
 
 # 발신 로봇의 전역 위치
 float32 robot_x         # 필드 X 좌표 (m)
